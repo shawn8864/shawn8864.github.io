@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="http://flemingphotodesign.com" resolutions="1x,2x" timestamp="1481318708859">
+<manifest alg="2" build="2017.0.0.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster" exportTarget="other" domain="http://flemingphotodesign.com,shawn8864.github.io" resolutions="1x,2x" timestamp="1481319849365">
   <folder name="css">
     <file name="site_global.css" crc="272839069"/>
     <file name="master_a-master.css" crc="3801891368" ref="photo:contact:video:about:design"/>
@@ -232,10 +232,10 @@
     <file name="tumblr_o2mdzlb74q1v8xo9co2_1280.jpg" crc="496203107" seo="true" ref="design"/>
     <file name="tumblr_o2mdzlb74q1v8xo9co2_1280_2x.jpg" crc="422547792" seo="true" ref="design"/>
   </folder>
-  <file name="index.html" crc="3800498500" seo="true" mt="1468882565357" redirect="true"/>
-  <file name="about.html" crc="3839760389" seo="true" mt="1460346791253" redirect="true"/>
-  <file name="photo.html" crc="3988316387" seo="true" mt="1460346791253" redirect="true"/>
-  <file name="video.html" crc="4091127314" seo="true" mt="1460346791253" redirect="true"/>
-  <file name="contact.html" crc="4153698417" seo="true" mt="1460347441379" redirect="true"/>
-  <file name="design.html" crc="522382827" seo="true" mt="1461185268914" redirect="true"/>
+  <file name="index.html" crc="4076975075" seo="true" mt="1468882565357" redirect="true"/>
+  <file name="about.html" crc="82895304" seo="true" mt="1460346791253" redirect="true"/>
+  <file name="photo.html" crc="199087084" seo="true" mt="1460346791253" redirect="true"/>
+  <file name="video.html" crc="479395900" seo="true" mt="1460346791253" redirect="true"/>
+  <file name="contact.html" crc="487676269" seo="true" mt="1460347441379" redirect="true"/>
+  <file name="design.html" crc="4082840672" seo="true" mt="1461185268914" redirect="true"/>
 </manifest>
