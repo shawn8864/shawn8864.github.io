@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+
+<style>
+	body {
+		width: 100%;
+		margin: 0;
+		background-color: black;
+	}
+	#cf2 {
+  position:relative;
+  margin:0 auto;
+}
+#cf2 div {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+	width: 100%;
+}
+
+#cf2 div.transparent {
+	opacity:0;
+}
+	
+	#cf2 div .slide_bg {
+		width: 100%;
+	}
+	
+	#cf2 div .slide_button {
+		position: absolute;
+		width: 15%;
+		top: 80%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		z-index: 1;
+	}
+	.bottom:active {
+		
+	}
+	
+#cf_onclick {
+cursor:pointer;
+}
+</style>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+
+<meta charset="UTF-8">
+<title>Stranger Things</title>
+</head>
+
+<body>
+
+<div id="cf2" class="shadow">
+	<div class="bottom transparent">
+		<a href="../episode1/episode1.html">
+			<img class="slide_button" src="enter.png" /></a>
+		<img class="slide_bg" src="shawn-fleming.png" />
+	</div>  
+	<div class="top">
+		<img class="slide_bg" src="stranger-things.png" />
+	</div>
+</div>
+
+<script>
+$(document).ready(function() {
+  	$("#cf2").click(function() {
+	  $("#cf2 div.top").toggleClass("transparent");
+	  $("#cf2 div.bottom").toggleClass("transparent");
+	});
+});
+	</script>
+
+
+
+</body>
+</html>

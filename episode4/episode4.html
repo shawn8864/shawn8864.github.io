@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Chapter 4</title>
+<style>
+	.quiz {
+		
+		margin-top: 500px;
+		margin-right: 500px;
+		font-family: 'Montserrat', sans-serif;
+		font-style: italic;
+		font-size: 30px;
+		font-weight: 800;
+		text-align: center;
+		color: white;
+	}
+	body {
+		background-image: url(pretty.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	input{
+		background-color: firebrick;
+		border: none;
+		border-radius: 3px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 20px;
+		font-weight: 600;
+		color: white
+	}
+	
+	
+</style>
+	
+
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+function valid() {
+	test0 = document.myform.elements[0].value;
+	if (test0.toLowerCase() == "pretty") {
+		window.location.href = '../episode5/episode5.html';
+		return false;
+	} else {
+		window.location.href = '../pretty/pretty.html';
+		return false;
+	}
+}
+</script>
+
+<div class="quiz">
+
+	<form name="myform">
+	"Wow, she looks... <br>
+	<input type="text" name="q1">"
+	<br>
+	<input type="button" onClick="valid()" value="Submit">
+	</form>
+</div>
+
+</body>
+</html>

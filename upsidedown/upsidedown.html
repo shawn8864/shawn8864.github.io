@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Episode 7</title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<style>
+	body {
+		background-color: black;
+		
+	}
+	video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+ 	
+    width: 1200px;;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+}
+			.button {
+    background-color: firebrick; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+		border-radius: 5px;
+		font-family: Montserrat, sans-serif;
+}
+	#buttonbox {
+		margin:auto;
+		width: 147px;
+		position:relative;
+		top: 100px;
+		right: 400px;
+	}
+	
+	.button:hover {
+		box-shadow: 0px 0px 12px 0 firebrick,0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+	</style>
+</head>
+
+<body>
+ <div id="buttonbox">
+		<a href="../index/intro.html" class="button">Turn back</a>
+	</div>
+
+<video playsinline autoplay muted loop id="bgvid">
+    <source src="backgroundu.mp4" type="video/mp4">
+ 
+
+ 
+</video>
+
+
+</body>
+</html>

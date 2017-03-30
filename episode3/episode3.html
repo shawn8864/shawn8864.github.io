@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Chapter 3</title>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+<style>
+	body {
+		background-color: #221609;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	map {
+    display: inline;
+}
+	.bg {
+		 display: block;
+  margin-left: auto;
+  margin-right: auto;
+	}
+/*
+	body {
+		background: url(background3.jpg);
+		background-attachment: fixed;
+		background-size: cover;
+		size: 100%;
+		min-height: 100%;
+*/
+	}
+	html {
+		min-height: 100%;
+		height: 100%;
+	}
+
+	p {
+		position: absolute;
+		color: white;
+		font-family: 'Montserrat', sans-serif;
+		font-style: italic;
+		font-size: 30px;
+		font-weight: 800;
+		text-align: center;
+		margin-left: 350px;
+		margin-top: 500px;
+	}
+	a {
+		text-decoration: none;
+		color: red;
+	}
+	img {
+		margin-left: 140px;
+	}
+</style>
+
+
+
+</head>
+
+<body>
+	<p>Will you <a href="../episode4/episode4.html">continue?</a> Or will you R-U-N?</p>
+	<div class="bg">
+	<img name="bg" img src="background3.jpg" width="1024" height="650" alt="background" usemap="#lights">
+	</div>
+
+ <div class="map">
+	<map name="lights">
+	
+  <area shape="circle" coords="230px,320px,40px"  alt="r" onMouseOver="document.bg.src ='r.jpg'" onClick="document.bg.src ='r.jpg'">
+  
+  <area shape="circle" coords="400px,350px,40px"  alt="u" onMouseOver="document.bg.src ='u.jpg'" onClick="document.bg.src ='u.jpg'">
+  
+  <area shape="circle" coords="520px,220px,40px" href="../upsidedown/upsidedown.html" alt="n" onMouseOver="document.bg.src ='n.jpg'" onClick="document.bg.src ='n.jpg'">
+</map>
+	</div>
+	
+	
+</body>
+</html>

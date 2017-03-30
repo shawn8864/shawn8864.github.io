@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<style>
+	@keyframes flicker {
+		0% {
+			opacity: 1;
+		}
+		20% {
+			opacity: 0;
+		}
+		21% {
+			opacity: 1;
+		}
+		23% {
+			opacity 0;
+		}
+		25% {
+			opacity 1;
+		}
+		40% {opacity: 0
+		}
+		43% {
+			opacity: 1;
+		}
+		44% {
+			opacity: 0;
+		}
+		50% {
+			opacity: 1;
+		}
+		98% {
+			opacity: 0;
+		}
+		
+		100% {
+			opacity: 1;
+		}
+	}
+	
+	html {
+		min-height: 100%;
+		height: 100%;
+	}
+	
+	body {
+		background-image: url(background1.jpg);
+		background-size: cover;
+		background-attachment: fixed;	
+		min-height: 100%;
+		height: 100%;
+	}
+	
+	main {
+		background-image: url(1.png);
+		background-size: cover;
+		background-attachment: fixed;
+		min-height: 100%;
+		height: 100%;
+		animation-name: flicker;
+		animation-duration: 2.5s;
+		animation-timing-function: steps(1);
+		animation-iteration-count: infinite;
+	}
+	
+	.button {
+    background-color: firebrick; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+		border-radius: 5px;
+		font-family: Montserrat, sans-serif;
+}
+	.button:hover {
+		box-shadow: 0px 0px 12px 0 firebrick,0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+	.button:active {
+		
+	}
+	#buttonbox {
+		margin:auto;
+		width: 147px;
+		position: relative;
+		bottom: 250px;
+		left: 130px;
+	}
+	#one {
+/*
+		background-image: url(1.png);
+		background-attachment: fixed;
+		height: 1600px;
+		width: 2560;
+*/
+		
+	}
+</style>
+<meta charset="UTF-8">
+<title>Chapter 1</title>
+
+</head>
+
+<body>
+<main>
+<div></div>
+</main>
+	<div id="buttonbox">
+		<a href="../index/intro.html" class="button">Yes</a>
+		<a href="../episode3/episode3.html" class="button">No</a>
+	</div>
+
+	
+</body>
+</html>
